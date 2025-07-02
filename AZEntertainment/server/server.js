@@ -1,12 +1,12 @@
-import express from 'express';
-import cors from 'cors';
-import connectDB from './config/db.js';
-import eventRoutes from './routes/eventRoutes.js';
-import userRoutes from './routes/userRoutes.js';
-import yoloRoutes from './routes/yoloRoutes.js';
+const express = require('express'); // ✅ No errors
+const cors = require('cors');
+const connectDB = require('./config/db.js');
+const eventRoutes = require('./routes/eventRoutes.js');
+const userRoutes = require('./routes/userRoutes.js');
+const yoloRoutes = require('./routes/yoloRoutes.js');
 // yolo server stuff / route stuff
 
-import dotenv from 'dotenv';
+const dotenv = require('dotenv');
 dotenv.config();
 
 (async () => {
