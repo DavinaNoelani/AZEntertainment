@@ -1,0 +1,197 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+*{box-sizing: border-box;}
+
+.container:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    margin-left: 250px;
+
+}
+
+.image {
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 16px;
+    
+}
+
+.nav-top {
+    height: 4.7vh;
+    position: sticky;
+    top: 0;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    color: #ffd700;
+    background-color: #202020;
+    /* border-bottom: #003366 4px solid; */
+}
+
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.two-thirds {
+    float: left;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.third {
+    float: left;
+    width: 100%;
+   
+
+}
+
+.padding-large {
+    padding: 12px 24px !important;
+}
+
+.ad-padding {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+.row-padding {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+    padding-right: 24px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ad-center {
+    text-align: center;
+    padding: 12px 24px;
+    border: 2px solid #B20931;
+}
+
+.hide {
+    display: block;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #ffd700;
+    width: 100%;
+}
+
+.footer-page {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-page,
+.pages {
+    display: inline-block;
+    width: auto;
+}
+
+.pages {
+    overflow: hidden;
+}
+
+.page-buttons {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: normal;
+}
+
+
+.footer-container {
+    padding: 0.01em 16px;
+    /* padding-top: 32px;
+    padding-bottom: 32px; */
+}
+
+.yolo-thumbnail {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+}
+
+@media screen and (max-width: 992px) {
+    .main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .hide {
+        display: none;
+        width: 0;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+    .third {
+        width: 33.3333%;
+    }
+
+    .two-thirds {
+        width: 66.66666%
+    }
+
+}
+
+/* Vanessa Styling */
+
+
+.footer{
+    background-color: #ffd700;
+    text-align: center;
+    display: block;
+    color:#B20931;
+}

@@ -1,0 +1,587 @@
+[{
+  "_id": {
+    "$oid": "642dd4f4ceef252101c87f02"
+  },
+  "category": "Music",
+  "audience": "Everyone",
+  "eventName": "THE OFFSPRING",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1691632800000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1691643600000"
+    }
+  },
+  "time": "9pm - 12am ",
+  "description": "THE OFFSPRING is coming to Talking Stick Amphitheater on August 9th. First come experience the music, taste the gourmet food, and take your chances at the Talking Stick Casino slots. Rooms still available: $150.00 a night. ",
+  "price": 55,
+  "venue": "Talking Stick",
+  "venueDescription": "Talking Stick Amphitheater",
+  "phoneNumber": {
+    "$numberLong": "4809658956"
+  },
+  "website": "www.talkingstick/tickets.com",
+  "address": {
+    "street": "14 Talking Stick Dr.",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85035"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680725236122"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680725236122"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642dd83aceef252101c87f0a"
+  },
+  "category": "Music",
+  "audience": "Everyone",
+  "eventName": "Guns N' Roses - Tour 2023",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1697007600000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1697050800000"
+    }
+  },
+  "time": "9pm - 12am ",
+  "description": "Let's welcome the one and ONLY Guns N' Roses to the Valley of the Sun!! Who doesn't know one of the most famous bands in history? Swing by Chase Field for the notorious music... ",
+  "price": 45,
+  "venue": "Chase Field",
+  "venueDescription": " Chase Field",
+  "phoneNumber": {
+    "$numberLong": "6025896321"
+  },
+  "website": "www.chasefield/tickets.com",
+  "address": {
+    "street": "401 E Jefferson St",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85035"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680726074089"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680726074089"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6430315df9cd728b91ab505c"
+  },
+  "category": "Music",
+  "audience": "Everyone",
+  "eventName": "THE CURE - US Tour 2023",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1684422000000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1684422060000"
+    }
+  },
+  "time": "8pm - 10pm",
+  "description": "You know who's coming to the Valley? THE CURE! They have traveled far and wide for their 2023 Tour - Shows Of A Lost World. The Twilight Sad has traveled next to The Cure show casing the music they love to create. Let's show the bands a warm Valley of Sun welcome! ",
+  "price": 75,
+  "venue": "Desert Diamond Arena",
+  "venueDescription": "Desert Diamond Arean and Casino",
+  "phoneNumber": {
+    "$numberLong": "6238569874"
+  },
+  "website": "www.desertdiamond/tickets/thecure.com",
+  "address": {
+    "street": "18 Desert Diamond",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85035"
+  },
+  "reoccurring": "",
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680879965222"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680879965222"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643032b1f9cd728b91ab5062"
+  },
+  "category": "Fitness / Racing",
+  "audience": "Everyone",
+  "eventName": "Flagstaff Extreme Terrain Mud Run",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1690297620000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1690297620000"
+    }
+  },
+  "time": "12pm - 5pm",
+  "description": "Nothing has mucked up the world of fitness quite like mud-obstacle racing. Such companies as Warrior Dash, Tough Mudder, Rugged Mudder, and Spartan Race have sprung up events around the world. Join the Mudders of the world in Flagstaff this year - 5k, 10k, or 20k courses. There are even options for the kiddos. ",
+  "price": 45,
+  "venue": "For Tuthill Park ",
+  "phoneNumber": {
+    "$numberLong": "9282551212"
+  },
+  "website": "terrainracing.com",
+  "address": {
+    "address1": "45",
+    "street": "Fort Tuthill Loop Road",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "zipcode": "85456"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680880305889"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680880305889"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643037c5f9cd728b91ab5068"
+  },
+  "category": "Fitness ",
+  "audience": "Everyone",
+  "eventName": "Prescott Valley Wild West Mud Fest",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1695136320000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1695136380000"
+    }
+  },
+  "time": "11am - 5pm",
+  "description": "A 5k layout that includes mud crawls, climbing walls, a dumpster dive, slide, muddy mountain climb, cargo net and hay pyramid. Compete individually or on a team.",
+  "price": 35,
+  "venue": "Prescott Valley Entertainment District ",
+  "venueDescription": "Prescott Valley Entertainment District",
+  "phoneNumber": {
+    "$numberLong": "9287768686"
+  },
+  "website": "wildwestmudfest.com",
+  "address": {
+    "street": "State Route 69 Prescott Valley Entertainment District",
+    "city": "Prescott Valley",
+    "state": "AZ",
+    "zipcode": "85502"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680881605149"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680881605149"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64303d6cf9cd728b91ab506c"
+  },
+  "category": "Festival",
+  "audience": "Everyone",
+  "eventName": "Renaissance ",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1677339600000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1678549200000"
+    }
+  },
+  "time": "8am - 5pm",
+  "description": "Come ye ol' folks! The Renaissance is back! Bring the whole family for a day of Josting, Turkey Legs, fantastic time traveling outfits, pubs, and so much more. We'll see you there!",
+  "price": 35,
+  "venue": "Renaissance Entertainment",
+  "venueDescription": "Renaissance Entertainment Center - Apache Junction, AZ",
+  "phoneNumber": {
+    "$numberLong": "4807405263"
+  },
+  "website": "www.renaissance/tickets.com",
+  "address": {
+    "street": "3445 Renaissance Entertainment",
+    "city": "Apache Junction",
+    "state": "AZ",
+    "zipcode": "85214"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680883052669"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680883052669"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64345439e98d9a28a5790444"
+  },
+  "category": "Food ",
+  "audience": "Everyone",
+  "eventName": "Momma's Organic Market at Park West",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1681582680000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1703960280000"
+    }
+  },
+  "time": "9am - 2pm",
+  "description": "Come to Momma's Organic Market - EVERY SATURDAY, Park West from 9:00 am - 2:00pm. Over 25 local stands bring handmade goods, fresh produce, and more for you to browse. This farmers market is a great one in particular for dog owners with a high turnout of the four-legged friends. In Park West there are many activities to experience such as; soccer field, fishing pond, and more.",
+  "price": 0,
+  "venue": "Park West",
+  "venueDescription": "Park West ",
+  "phoneNumber": {
+    "$numberLong": "6238569456"
+  },
+  "website": "www.mommasorganicmarket.com/saturdays",
+  "address": {
+    "street": "3 Park West",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85026"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681151033027"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681151033027"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643455e3e98d9a28a579044c"
+  },
+  "category": "Food ",
+  "audience": "Everyone",
+  "eventName": "Old Town Scottsdale Farmers Market ",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1681657200000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1704063600000"
+    }
+  },
+  "time": "8am - Sundown",
+  "description": "Old Town Scottsdale Farmers Market is a perfect place to spend your Sunday. Takes places every Sunday throughout the year. Bring the whole family or come for a little alone time. Over 50 local vendors with fresh produce, new flavors, and neighborly fun and entertainment. Hosting a Culinary Arts Program for anyone looking to embark on a new culinary journey! All vendors donate extra food to the homeless community. Don't forget; Yoga takes place at 10:00 a.m.! We'll see you there! ",
+  "price": 0,
+  "venue": "Old Town Scottsdale",
+  "venueDescription": "Old Town Scottsdale Farmers Market",
+  "phoneNumber": {
+    "$numberLong": "6024561234"
+  },
+  "website": "www.oldscottsdale/farmersmarket/sunday",
+  "address": {
+    "street": "67 Old Town Scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "zipcode": "85032"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681151459823"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681151459823"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6436da46b2b83b7967c2b60d"
+  },
+  "category": "Music",
+  "audience": "Everyone",
+  "eventName": "LIL WAYNE",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1683590400000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1683676800000"
+    }
+  },
+  "time": "700pm - 2 days",
+  "description": "One of the most notorious rappers of this generation -- LIL WAYNE!! A 2 day event and numerous opening acts. Let's party it up in the valley. ",
+  "price": 65,
+  "venue": "Van Buren",
+  "venueDescription": "The Van Buren Center",
+  "phoneNumber": {
+    "$numberLong": "4806598752"
+  },
+  "website": "www.vanburencenter/lilwayne/tickets",
+  "address": {
+    "street": "401 Van Buren Ave",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85027"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681316422305"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681316422305"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6436db6eb2b83b7967c2b611"
+  },
+  "category": "Music ",
+  "audience": "Everyone",
+  "eventName": "Morgan Wallen",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1689724800000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1689724800000"
+    }
+  },
+  "time": "400pm - 730pm",
+  "description": "The one and only Morgan Wallen! An amazing country singer who has blown up the scene. Not many have a voice like Morgan! Most of us are swooning over his dramatic entrance! Come see our booth before the concert starts and you may win come tickets to the next huge event of the year... COUNTRY THUNDER!!",
+  "price": 46,
+  "venue": "Chase Field",
+  "venueDescription": "Chase Field is a huge venue. Don't get lost on the way! Show up and show out, Phoenix!",
+  "phoneNumber": {
+    "$numberLong": "6231235698"
+  },
+  "website": "www.chasefield/morganwallen/tickets",
+  "address": {
+    "street": "401 E Jefferson St",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85032"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681316718589"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681316718589"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6436dcb1b2b83b7967c2b615"
+  },
+  "category": "Music",
+  "audience": "Everyone",
+  "eventName": "Cigarettes After Sex - North American Tour 2023 ",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1692403200000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1692489600000"
+    }
+  },
+  "time": "Starts: 900 am - Ends: 900pm SUNDAY",
+  "description": "Who doesn't love the creativity of this bands name? They have finally arrived to the Valley! Come check them out for a 2 day event! ",
+  "price": 35,
+  "venue": "The Van Buren",
+  "venueDescription": "The Van Buren Center ",
+  "phoneNumber": {
+    "$numberLong": "6024561234"
+  },
+  "website": "www.thevanburen/cigarettes aftersex/tickets",
+  "address": {
+    "street": "401 W Van Buren ",
+    "city": "Phoenix ",
+    "state": "AZ ",
+    "zipcode": "85021"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681317041972"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681317041972"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6436e2a3b2b83b7967c2b61b"
+  },
+  "category": "Fair",
+  "audience": "Everyone",
+  "eventName": "Maricopa County Fair ",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1681257600000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1681603200000"
+    }
+  },
+  "time": "Sun Up - Sun Down",
+  "description": "The Maricopa County Fair features the largest county fair carnival in Phoenix. Over 35 rides, food offerings like Steve's Flaming Hot Turkey Legs, Deep Fried Coffee, the Mac Doggie Dog, and so much more. It's truly food you'll never forget! Would you like to shop? Well, its got that too. The shopping pavilion is filled with over 60 vendors plus there are over 25 more vendors outside. We can't forget the agriculture and livestock - that is a historical and traditional piece of any county fair. ",
+  "price": 25,
+  "venue": "Maricopa Fair Grounds",
+  "venueDescription": "Fair grounds",
+  "phoneNumber": {
+    "$numberLong": "6238562341"
+  },
+  "website": "www.maricopacounty/statefair/tickets",
+  "address": {
+    "street": "458 Fair Ground Dr",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85023"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681318563144"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681318563144"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6436e39eb2b83b7967c2b61d"
+  },
+  "category": "Food",
+  "audience": "Everyone ",
+  "eventName": "Rib Fest Throwdown",
+  "eventStartDate": {
+    "$date": {
+      "$numberLong": "1682208000000"
+    }
+  },
+  "eventEndDate": {
+    "$date": {
+      "$numberLong": "1682294400000"
+    }
+  },
+  "time": "800am - 500pm",
+  "description": "Bragging rights are at stake at this event. Two pits of smoked-meat - both different styles of flavor going against one another. Texas versus Kansas City. As Phoenicians, we don't have a horse in the race, but that doesn't mean we can't enjoy KC's iconic charred pork ends or the Lone Star State's classic mesquite - and - pecan-wood hints of flavor",
+  "price": 25,
+  "venue": "Surprise Stadium",
+  "venueDescription": "Mark Coronado Park at Surprise Stadium",
+  "phoneNumber": {
+    "$numberLong": "6238562341"
+  },
+  "website": "www.maricopacounty/statefair/tickets",
+  "address": {
+    "street": "15850 N. Bullard Ave",
+    "city": "Surprise",
+    "state": "AZ",
+    "zipcode": "85035"
+  },
+  "eventImage": [],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1681318814187"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1681318814187"
+    }
+  },
+  "__v": 0
+}]
