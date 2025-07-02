@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Home from '../src/components/Home/Home';
 import Nav from './components/Nav/Nav';
 import axios from 'axios'
@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer';
 function App() {
 
     const [eventList, setEventList] = useState([])
-    const [register, setRegister] = useState(false)
+    const [register] = useState(false)
     const [yoloList, setYoloList] = useState([])
     const [matches, setMatches] = useState(false)
     const [matchesList, setMatchesList] = useState([])

@@ -154,7 +154,7 @@
   "time": "12pm - 5pm",
   "description": "Nothing has mucked up the world of fitness quite like mud-obstacle racing. Such companies as Warrior Dash, Tough Mudder, Rugged Mudder, and Spartan Race have sprung up events around the world. Join the Mudders of the world in Flagstaff this year - 5k, 10k, or 20k courses. There are even options for the kiddos. ",
   "price": 45,
-  "venue": "For Tuthill Park ",
+  "venue": "For Tuthill Park",
   "phoneNumber": {
     "$numberLong": "9282551212"
   },
@@ -183,7 +183,7 @@
   "_id": {
     "$oid": "643037c5f9cd728b91ab5068"
   },
-  "category": "Fitness ",
+  "category": "Fitness",
   "audience": "Everyone",
   "eventName": "Prescott Valley Wild West Mud Fest",
   "eventStartDate": {
@@ -199,7 +199,7 @@
   "time": "11am - 5pm",
   "description": "A 5k layout that includes mud crawls, climbing walls, a dumpster dive, slide, muddy mountain climb, cargo net and hay pyramid. Compete individually or on a team.",
   "price": 35,
-  "venue": "Prescott Valley Entertainment District ",
+  "venue": "Prescott Valley Entertainment District",
   "venueDescription": "Prescott Valley Entertainment District",
   "phoneNumber": {
     "$numberLong": "9287768686"
@@ -273,7 +273,7 @@
   "_id": {
     "$oid": "64345439e98d9a28a5790444"
   },
-  "category": "Food ",
+  "category": "Food",
   "audience": "Everyone",
   "eventName": "Momma's Organic Market at Park West",
   "eventStartDate": {
@@ -290,7 +290,7 @@
   "description": "Come to Momma's Organic Market - EVERY SATURDAY, Park West from 9:00 am - 2:00pm. Over 25 local stands bring handmade goods, fresh produce, and more for you to browse. This farmers market is a great one in particular for dog owners with a high turnout of the four-legged friends. In Park West there are many activities to experience such as; soccer field, fishing pond, and more.",
   "price": 0,
   "venue": "Park West",
-  "venueDescription": "Park West ",
+  "venueDescription": "Park West",
   "phoneNumber": {
     "$numberLong": "6238569456"
   },
@@ -477,8 +477,8 @@
   "website": "www.thevanburen/cigarettes aftersex/tickets",
   "address": {
     "street": "401 W Van Buren ",
-    "city": "Phoenix ",
-    "state": "AZ ",
+    "city": "Phoenix",
+    "state": "AZ",
     "zipcode": "85021"
   },
   "eventImage": [],
@@ -544,7 +544,7 @@
     "$oid": "6436e39eb2b83b7967c2b61d"
   },
   "category": "Food",
-  "audience": "Everyone ",
+  "audience": "Everyone",
   "eventName": "Rib Fest Throwdown",
   "eventStartDate": {
     "$date": {

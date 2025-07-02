@@ -11,14 +11,14 @@ const Admin = ({ theme, eventList, setEventList, allUsers }) => {
 
     useEffect(() => {
         axios.get('http://localhost:5000/api/event')
-        .then(({ data }) => {
-            setEventList(data)
-            if (data.length > 0) {
-                const likes = data.map((item) => item.likes)
-                setSharesTotal(likes.reduce((a, b) => a + b))
-            }
-        })
-        .catch(err => console.log(err))
+            .then(({ data }) => {
+                setEventList(data)
+                if (data.length > 0) {
+                    const likes = data.map((item) => item.likes)
+                    setSharesTotal(likes.reduce((a, b) => a + b))
+                }
+            })
+            .catch(err => console.log(err))
     }, [])
 
 
