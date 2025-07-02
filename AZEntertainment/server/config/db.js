@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
 import config from 'config';
-const db = config.get('mongoURI');
 import 'colors';
+
+const db = config.get('mongoURI');
 
 const connectDB = async () => {
     try {
