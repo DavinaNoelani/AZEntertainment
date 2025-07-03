@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
-require('dotenv').config()
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const UserSchema = new mongoose.Schema({
     firstName: {
@@ -42,4 +43,5 @@ const UserSchema = new mongoose.Schema({
     { timestamps: true }
 );
 
-module.exports = User = mongoose.model('user', UserSchema);
+const User = mongoose.model('User', UserSchema);
+export default User;

@@ -19,4 +19,5 @@ async function run() {
 }
 run().catch(console.dir);
 
-
+// exports = run;
+export default run;

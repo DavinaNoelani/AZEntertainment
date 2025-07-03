@@ -1,6 +1,7 @@
 
-const mongoose = require('mongoose');
-require('dotenv').config()
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 const EventSchema = new mongoose.Schema({
@@ -76,13 +77,15 @@ const EventSchema = new mongoose.Schema({
     eventImage: {
         type: [String]
     },
-    likes: {
-        type: Number,
-    }
-}, {
-    timestamps: true
-});
+    likes: {type: Number, default: 0},
+    shareCount: { type: Number, default: 0 },
+},
+    {
+        timestamps: true
+    });
 
-module.exports = mongoose.model('event', EventSchema);
+const Event = mongoose.model('Event', EventSchema);
+export default Event;
+
 
 

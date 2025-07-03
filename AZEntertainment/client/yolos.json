@@ -2,15 +2,15 @@
   {
     "_id": "642f05d1b56c5a1a75f7566f",
     "activityName": "Skydiving",
-    "operationHours": "8am to 5 pm ",
+    "operationHours": "8am to 5 pm",
     "operationDays": "Friday To Sunday",
-    "description": " Tandem skydiving is the most popular way to experience skydiving for the first time!You are attached to\n                     a highly experienced instructor when you make the skydive,and the instructor is responsible for operating all of the equipment.",
+    "description": "Tandem skydiving is the most popular way to experience skydiving for the first time! You are attached to a highly experienced instructor when you make the skydive, and the instructor is responsible for operating all of the equipment.",
     "price": 150,
     "phoneNumber": "6024128410",
     "website": "www.AzSkydiving.com",
     "address": {
       "address1": "1323 E Love ln",
-      "street": " E Love ln",
+      "street": "E Love ln",
       "city": "Goodyear",
       "state": "Arizona",
       "zipcode": "85338"

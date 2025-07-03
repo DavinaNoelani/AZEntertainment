@@ -1,5 +1,6 @@
 {
 	"_id": "package.json",
+	"type": "module",
 	"name": "fcc-project3-events",
 	"version": "0.1.0",
 	"description": "Fullstack Team Project - Events",

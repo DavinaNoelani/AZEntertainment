@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
-require('dotenv').config()
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 const YoloSchema = new mongoose.Schema({
@@ -52,8 +53,6 @@ const YoloSchema = new mongoose.Schema({
             required: true
         }
     },
-
-
     comment: [{
         message: String,
         date: {
@@ -61,6 +60,7 @@ const YoloSchema = new mongoose.Schema({
             default: Date.now
         }
     }],
+    
     activityImage: [String],
     likes: Number,
 },
@@ -68,4 +68,5 @@ const YoloSchema = new mongoose.Schema({
     timestamps: true,
 });
 
-module.exports = mongoose.model('yolo', YoloSchema);
+const Yolo = mongoose.model('Yolo', YoloSchema);
+export default Yolo;

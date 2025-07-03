@@ -1,17 +1,17 @@
-const express = require('express');
-const cors = require('cors');
+import express from 'express';
+import cors from 'cors';
 
-const eventRoutes = require('./routes/eventRoutes');
-const userRoutes = require('./routes/userRoutes');
-const yoloRoutes = require('./routes/yoloRoutes');
-const connectDB = require('./config/db');
+import eventRoutes from './routes/eventRoutes.js';
+import userRoutes from './routes/userRoutes.js';
+import yoloRoutes from './routes/yoloRoutes.js';
+import run from './config/db.js';
 
-const dotenv = require('dotenv');
+import dotenv from 'dotenv';
 dotenv.config();
 
 (async () => {
     try {
-        await connectDB();
+        await run();
     } catch (err) {
         console.error('Failed to connect to database:', err);
         process.exit(1);
