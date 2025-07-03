@@ -1,5 +1,5 @@
 {
-	"type": "module",
+	"_id": "package.json",
 	"name": "fcc-project3-events",
 	"version": "0.1.0",
 	"description": "Fullstack Team Project - Events",
@@ -8,14 +8,20 @@
 		"start": "node server.js"
 	},
 	"dependencies": {
+		"colors": "^1.4.0",
+		"config": "^4.0.0",
 		"cors": "^2.8.5",
-		"dotenv": "^8.2.0",
-		"express": "^4.16.4",
+		"dotenv": "^8.6.0",
+		"express": "^4.21.2",
+		"mongodb": "^6.17.0",
 		"mongoose": "^8.16.1"
 	},
 	"license": "UNLICENSED",
 	"keywords": [
 		"node",
 		"express"
-	]
+	],
+	"devDependencies": {
+		"@types/dotenv": "^8.2.3"
+	}
 }

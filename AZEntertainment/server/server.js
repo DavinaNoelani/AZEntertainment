@@ -1,10 +1,10 @@
-const express = require('express'); // ✅ No errors
+const express = require('express');
 const cors = require('cors');
-const connectDB = require('./config/db.js');
-const eventRoutes = require('./routes/eventRoutes.js');
-const userRoutes = require('./routes/userRoutes.js');
-const yoloRoutes = require('./routes/yoloRoutes.js');
-// yolo server stuff / route stuff
+
+const eventRoutes = require('./routes/eventRoutes');
+const userRoutes = require('./routes/userRoutes');
+const yoloRoutes = require('./routes/yoloRoutes');
+const connectDB = require('./config/db');
 
 const dotenv = require('dotenv');
 dotenv.config();
@@ -20,7 +20,6 @@ dotenv.config();
     const app = express();
 
     app.use(cors());
-
     const port = process.env.PORT || 8000;
 
     app.use(express.json());
@@ -33,8 +32,12 @@ dotenv.config();
 
     // Error handling middleware
     app.use((err, _, res, __) => {
-        console.error(err.stack);
-        res.status(500).json({ message: 'Something went wrong!' });
+        const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
+        res.status(statusCode);
+        res.json({
+            message: err.message,
+            stack: process.env.NODE_ENV === 'production' ? '🥞' : err.stack,
+        });
     });
 
     app.listen(port, () => console.log(`Server is running on port ${port}`));
