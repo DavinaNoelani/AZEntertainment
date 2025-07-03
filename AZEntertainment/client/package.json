@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React project",
   "main": "src/index.js",
+  "proxy": "http://localhost:5000",
+  "homepage": ".",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

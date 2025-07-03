@@ -30,7 +30,11 @@
     "state": "AZ",
     "zipcode": "85035"
   },
-  "eventImage": [],
+  "eventImage": [
+    "OffspringAlbumn",
+    "offspring",
+    "concert"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -39,10 +43,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1680725236122"
+      "$numberLong": "1683922302077"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 55
 },{
   "_id": {
     "$oid": "642dd83aceef252101c87f0a"
@@ -75,7 +80,11 @@
     "state": "AZ",
     "zipcode": "85035"
   },
-  "eventImage": [],
+  "eventImage": [
+    "GNRLondon",
+    "GNRMexico",
+    "GNR"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -84,10 +93,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1680726074089"
+      "$numberLong": "1683917253591"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 19
 },{
   "_id": {
     "$oid": "6430315df9cd728b91ab505c"
@@ -121,8 +131,14 @@
     "zipcode": "85035"
   },
   "reoccurring": "",
-  "eventImage": [],
-  "comment": [],
+  "eventImage": [
+    "alsoCure",
+    "cureDates",
+    "concert3"
+  ],
+  "comment": [
+    ""
+  ],
   "createdAt": {
     "$date": {
       "$numberLong": "1680879965222"
@@ -130,10 +146,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1680879965222"
+      "$numberLong": "1683916417523"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 6
 },{
   "_id": {
     "$oid": "643032b1f9cd728b91ab5062"
@@ -154,7 +171,7 @@
   "time": "12pm - 5pm",
   "description": "Nothing has mucked up the world of fitness quite like mud-obstacle racing. Such companies as Warrior Dash, Tough Mudder, Rugged Mudder, and Spartan Race have sprung up events around the world. Join the Mudders of the world in Flagstaff this year - 5k, 10k, or 20k courses. There are even options for the kiddos. ",
   "price": 45,
-  "venue": "For Tuthill Park",
+  "venue": "For Tuthill Park ",
   "phoneNumber": {
     "$numberLong": "9282551212"
   },
@@ -166,7 +183,11 @@
     "state": "AZ",
     "zipcode": "85456"
   },
-  "eventImage": [],
+  "eventImage": [
+    "mudRun",
+    "mudGirls",
+    "fire"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -175,15 +196,16 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1680880305889"
+      "$numberLong": "1683916419354"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 4
 },{
   "_id": {
     "$oid": "643037c5f9cd728b91ab5068"
   },
-  "category": "Fitness",
+  "category": "Fitness ",
   "audience": "Everyone",
   "eventName": "Prescott Valley Wild West Mud Fest",
   "eventStartDate": {
@@ -199,7 +221,7 @@
   "time": "11am - 5pm",
   "description": "A 5k layout that includes mud crawls, climbing walls, a dumpster dive, slide, muddy mountain climb, cargo net and hay pyramid. Compete individually or on a team.",
   "price": 35,
-  "venue": "Prescott Valley Entertainment District",
+  "venue": "Prescott Valley Entertainment District ",
   "venueDescription": "Prescott Valley Entertainment District",
   "phoneNumber": {
     "$numberLong": "9287768686"
@@ -211,7 +233,11 @@
     "state": "AZ",
     "zipcode": "85502"
   },
-  "eventImage": [],
+  "eventImage": [
+    "muddypeople",
+    "moremudagain",
+    "mud"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -220,10 +246,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1680881605149"
+      "$numberLong": "1683916420660"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 3
 },{
   "_id": {
     "$oid": "64303d6cf9cd728b91ab506c"
@@ -256,7 +283,11 @@
     "state": "AZ",
     "zipcode": "85214"
   },
-  "eventImage": [],
+  "eventImage": [
+    "chocolate",
+    "joust",
+    "newdude"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -265,15 +296,16 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1680883052669"
+      "$numberLong": "1683916422903"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 7
 },{
   "_id": {
     "$oid": "64345439e98d9a28a5790444"
   },
-  "category": "Food",
+  "category": "Food ",
   "audience": "Everyone",
   "eventName": "Momma's Organic Market at Park West",
   "eventStartDate": {
@@ -290,7 +322,7 @@
   "description": "Come to Momma's Organic Market - EVERY SATURDAY, Park West from 9:00 am - 2:00pm. Over 25 local stands bring handmade goods, fresh produce, and more for you to browse. This farmers market is a great one in particular for dog owners with a high turnout of the four-legged friends. In Park West there are many activities to experience such as; soccer field, fishing pond, and more.",
   "price": 0,
   "venue": "Park West",
-  "venueDescription": "Park West",
+  "venueDescription": "Park West ",
   "phoneNumber": {
     "$numberLong": "6238569456"
   },
@@ -301,7 +333,11 @@
     "state": "AZ",
     "zipcode": "85026"
   },
-  "eventImage": [],
+  "eventImage": [
+    "market",
+    "farmersMarket",
+    "mommasMarket"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -310,10 +346,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681151033027"
+      "$numberLong": "1683913574516"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 },{
   "_id": {
     "$oid": "643455e3e98d9a28a579044c"
@@ -346,7 +383,11 @@
     "state": "AZ",
     "zipcode": "85032"
   },
-  "eventImage": [],
+  "eventImage": [
+    "downtownMarket",
+    "sunflowers",
+    "oldTimeFarmersMarket"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -355,10 +396,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681151459823"
+      "$numberLong": "1683913574523"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 },{
   "_id": {
     "$oid": "6436da46b2b83b7967c2b60d"
@@ -391,7 +433,11 @@
     "state": "AZ",
     "zipcode": "85027"
   },
-  "eventImage": [],
+  "eventImage": [
+    "lilwayne",
+    "lilwayne2",
+    "lilwayne3ish"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -400,10 +446,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681316422305"
+      "$numberLong": "1683913574530"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 },{
   "_id": {
     "$oid": "6436db6eb2b83b7967c2b611"
@@ -436,7 +483,11 @@
     "state": "AZ",
     "zipcode": "85032"
   },
-  "eventImage": [],
+  "eventImage": [
+    "morganw",
+    "concert",
+    "morganwallen"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -445,10 +496,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681316718589"
+      "$numberLong": "1683913574534"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 },{
   "_id": {
     "$oid": "6436dcb1b2b83b7967c2b615"
@@ -477,11 +529,15 @@
   "website": "www.thevanburen/cigarettes aftersex/tickets",
   "address": {
     "street": "401 W Van Buren ",
-    "city": "Phoenix",
-    "state": "AZ",
+    "city": "Phoenix ",
+    "state": "AZ ",
     "zipcode": "85021"
   },
-  "eventImage": [],
+  "eventImage": [
+    "CAS",
+    "CAS2",
+    "CAS3"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -490,10 +546,11 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681317041972"
+      "$numberLong": "1683913574545"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 },{
   "_id": {
     "$oid": "6436e2a3b2b83b7967c2b61b"
@@ -526,7 +583,11 @@
     "state": "AZ",
     "zipcode": "85023"
   },
-  "eventImage": [],
+  "eventImage": [
+    "fair2",
+    "fair",
+    "fair3"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -535,16 +596,17 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681318563144"
+      "$numberLong": "1683913574552"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 },{
   "_id": {
     "$oid": "6436e39eb2b83b7967c2b61d"
   },
   "category": "Food",
-  "audience": "Everyone",
+  "audience": "Everyone ",
   "eventName": "Rib Fest Throwdown",
   "eventStartDate": {
     "$date": {
@@ -571,7 +633,11 @@
     "state": "AZ",
     "zipcode": "85035"
   },
-  "eventImage": [],
+  "eventImage": [
+    "kabob",
+    "ribs",
+    "ribs2"
+  ],
   "comment": [],
   "createdAt": {
     "$date": {
@@ -580,8 +646,9 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1681318814187"
+      "$numberLong": "1683913574558"
     }
   },
-  "__v": 0
+  "__v": 0,
+  "likes": 2
 }]

@@ -7,7 +7,7 @@ import Admin from './components/Admin/Admin';
 import Yolo from './components/Yolo/Yolo';
 import UserPage from './components/Users/UserPage';
 import Footer from './components/Footer/Footer';
-// import { handleShares } from './components/Tabs/ShareFunction';
+import { handleShares } from './components/Tabs/ShareFunction';
 
 
 function App() {

@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "642f05d1b56c5a1a75f7566f"
+  },
+  "activityName": "Skydiving",
+  "operationHours": "8am to 5 pm ",
+  "operationDays": "Friday To Sunday",
+  "description": " Tandem skydiving is the most popular way to experience skydiving for the first time!You are attached to\n                     a highly experienced instructor when you make the skydive,and the instructor is responsible for operating all of the equipment.",
+  "price": 150,
+  "phoneNumber": {
+    "$numberLong": "6024128410"
+  },
+  "website": "www.AzSkydiving.com",
+  "address": {
+    "address1": "1323 E Love ln",
+    "street": " E Love ln",
+    "city": "Goodyear",
+    "state": "Arizona",
+    "zipcode": "85338"
+  },
+  "activityImage": ["tandem","skydiving1","skydiving2"],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680803281430"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680803281430"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642f071db56c5a1a75f75677"
+  },
+  "activityName": "Az Parasailing",
+  "operationHours": "8am to 5 pm ",
+  "operationDays": "Friday To Sunday",
+  "description": "Parasailing is a recreational water sport . This amazing activity is the perfect way to experience some serious fun and not to mention the scenery is simply breathtaking.",
+  "price": 150,
+  "phoneNumber": {
+    "$numberLong": "4806289189"
+  },
+  "website": "www.azpaarsailing.com",
+  "address": {
+    "address1": "2313",
+    "street": "W Havasu Rd",
+    "city": "Lake Havasu",
+    "state": "Arizona",
+    "zipcode": "86315"
+  },
+  "activityImage": ["parasailing"],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680803613034"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680803613034"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642f11f3b56c5a1a75f7567b"
+  },
+  "activityName": "AZ  Bungee Jumping",
+  "operationHours": "8am To 3pm",
+  "operationDays": "Friday To Sunday",
+  "description": "Bungee jumping is a sport of jumping from a tall structure while connected to a bungee elastic cord.As the person jumps from the structure ,the cord stretches and recoils when the jumper reaches the designated length. The bungee jumping adventure provides an adrenaline rush with the free-fall and rebound.",
+  "price": 100,
+  "phoneNumber": {
+    "$numberLong": "6232816019"
+  },
+  "website": "www.azbungeejumping.com",
+  "address": {
+    "address1": "666",
+    "street": "N Navajo Rd",
+    "city": "Marble Canyon",
+    "state": "Arizona",
+    "zipcode": "85478"
+  },
+  "activityImage":["bungee-jumping","bungeejumping1","bungeejumping2"],
+  "comment": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1680806387826"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1680806387826"
+    }
+  },
+  "__v": 0
+}]

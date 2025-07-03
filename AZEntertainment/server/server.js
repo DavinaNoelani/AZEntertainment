@@ -2,6 +2,7 @@ import express from 'express';
 import eventRoutes from './routes/eventRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import yoloRoutes from './routes/yoloRoutes.js';
+
 import connectDB from './config/db.js';
 import colors from 'colors';
 import dotenv from 'dotenv';

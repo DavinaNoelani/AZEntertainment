@@ -1,0 +1,1076 @@
+[{
+  "_id": {
+    "$oid": "645953f9b1eac18c8eaca477"
+  },
+  "firstName": "Andre",
+  "lastName": "Larson",
+  "userName": "dredre",
+  "password": "Maddie1",
+  "userImage": [],
+  "events": [
+    {
+      "_id": {
+        "$oid": "647a03098e7c7b25b8cb729c"
+      },
+      "eventPurchased": "THE OFFSPRING",
+      "dateOfEvent": "2023-08-10T02:00:00.000Z"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683575801365"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717769983"
+    }
+  },
+  "__v": 0,
+  "paymentInfo": {
+    "creditCardType": "Visa",
+    "creditCard": "25252654654654",
+    "expiration": "1223",
+    "cvv": "111"
+  }
+},{
+  "_id": {
+    "$oid": "64626c3f2694b7bcdd3f3051"
+  },
+  "firstName": "Davina",
+  "lastName": "Walker",
+  "userName": "binawaka",
+  "password": "ru4real",
+  "userImage": [
+    "jane.jpg"
+  ],
+  "events": [
+    {
+      "_id": {
+        "$oid": "64626c8c2694b7bcdd3f3059"
+      },
+      "eventPurchased": "THE OFFSPRING",
+      "dateOfEvent": "2023-08-10T02:00:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "64626caf2694b7bcdd3f305e"
+      },
+      "eventPurchased": "Base Jumping",
+      "dateOfEvent": "8am to 3pm"
+    },
+    {
+      "_id": {
+        "$oid": "646294292694b7bcdd3f3273"
+      },
+      "eventPurchased": "THE CURE - US Tour 2023",
+      "dateOfEvent": "2023-05-18T15:00:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "6463d134d75cf7e0f92107be"
+      },
+      "eventPurchased": "Flagstaff Extreme Terrain Mud Run",
+      "dateOfEvent": "2023-07-25T15:07:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "64650cb288bf978d0fe18d01"
+      },
+      "eventPurchased": "Momma's Organic Market at Park West",
+      "dateOfEvent": "2023-04-15T18:18:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "64650cc088bf978d0fe18d12"
+      },
+      "eventPurchased": "LIL WAYNE",
+      "dateOfEvent": "2023-05-09T00:00:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "64650cd488bf978d0fe18d26"
+      },
+      "eventPurchased": "Maricopa County Fair ",
+      "dateOfEvent": "2023-04-12T00:00:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "646b8a9c88bf978d0fe19103"
+      },
+      "eventPurchased": "Parasailing",
+      "dateOfEvent": "8am to 5 pm "
+    },
+    {
+      "_id": {
+        "$oid": "646b900988bf978d0fe1919f"
+      },
+      "eventPurchased": "Renaissance ",
+      "dateOfEvent": "2023-02-25T15:40:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "646b901a88bf978d0fe191bd"
+      },
+      "eventPurchased": "Momma's Organic Market at Park West",
+      "dateOfEvent": "2023-04-15T18:18:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "6470d3091c35028ab014e147"
+      },
+      "eventPurchased": "Guns N' Roses - Tour 2023",
+      "dateOfEvent": "2023-10-11T07:00:00.000Z"
+    },
+    {
+      "_id": {
+        "$oid": "647a2f69a5fb2f346835c531"
+      },
+      "eventPurchased": "Flagstaff Extreme Terrain Mud Run",
+      "dateOfEvent": "2023-07-25T15:07:00.000Z"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1684171839876"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685729129993"
+    }
+  },
+  "__v": 0,
+  "paymentInfo": {
+    "creditCardType": "MasterCard",
+    "creditCard": "25252654654654",
+    "expiration": "1223",
+    "cvv": "124"
+  }
+},{
+  "_id": {
+    "$oid": "6470e58a3b0569c63cb50622"
+  },
+  "firstName": "Admin",
+  "lastName": "Admin",
+  "userName": "admin123",
+  "password": "admin123",
+  "userImage": [
+    "avatar6.png"
+  ],
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685120394049"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685120394049"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6478e392a194391accd7b4dc"
+  },
+  "userImage": [],
+  "firstName": "Nancy",
+  "lastName": "Williams",
+  "userName": "nWilliams",
+  "password": "karson",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685644178208"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685644178208"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790271b3cb3726a0cc5f06"
+  },
+  "userImage": [],
+  "firstName": "Karsen",
+  "lastName": "Jackson",
+  "userName": "kJackson",
+  "password": "Cooper",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652081665"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652081665"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790281b3cb3726a0cc5f07"
+  },
+  "userImage": [],
+  "firstName": "Jerry",
+  "lastName": "Larson",
+  "userName": "jLarson",
+  "password": "daddio",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652097960"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652097960"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790296b3cb3726a0cc5f08"
+  },
+  "userImage": [],
+  "firstName": "Alice ",
+  "lastName": "Simmons",
+  "userName": "aSimmons",
+  "password": "mommy",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652118548"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652118548"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647902acb3cb3726a0cc5f09"
+  },
+  "userImage": [],
+  "firstName": "Sky",
+  "lastName": "Mansfield",
+  "userName": "sMansfield",
+  "password": "bestie",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652140873"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652140873"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647902bcb3cb3726a0cc5f0a"
+  },
+  "userImage": [],
+  "firstName": "Michelle",
+  "lastName": "Metz",
+  "userName": "mMetz",
+  "password": "daughter",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652156776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652156776"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647902d3b3cb3726a0cc5f0b"
+  },
+  "userImage": [],
+  "firstName": "Eric",
+  "lastName": "Metz",
+  "userName": "eMetz",
+  "password": "soninlaw",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652179272"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652179272"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647902e3b3cb3726a0cc5f0c"
+  },
+  "userImage": [],
+  "firstName": "Tanner",
+  "lastName": "Caron",
+  "userName": "tanman",
+  "password": "son",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652195192"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652195192"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647902f5b3cb3726a0cc5f0d"
+  },
+  "userImage": [],
+  "firstName": "Sarah",
+  "lastName": "Caron",
+  "userName": "sCaron",
+  "password": "daughterinlaw",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652213056"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652213056"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6479030bb3cb3726a0cc5f0e"
+  },
+  "userImage": [],
+  "firstName": "Vanessa",
+  "lastName": "Bella",
+  "userName": "vBella",
+  "password": "pink",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652235423"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652235423"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790325b3cb3726a0cc5f0f"
+  },
+  "userImage": [],
+  "firstName": "Maddie",
+  "lastName": "Metz",
+  "userName": "mMetz2",
+  "password": "grand",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652261848"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652261848"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790337b3cb3726a0cc5f10"
+  },
+  "userImage": [],
+  "firstName": "Liz",
+  "lastName": "Larson",
+  "userName": "lLarson",
+  "password": "aunt",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652279472"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652279472"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790353b3cb3726a0cc5f11"
+  },
+  "userImage": [],
+  "firstName": "Pat",
+  "lastName": "Sweiss",
+  "userName": "pSweiss",
+  "password": "test",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652307881"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652307881"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790372b3cb3726a0cc5f12"
+  },
+  "userImage": [],
+  "firstName": "Christina",
+  "lastName": "Larson",
+  "userName": "cLarson",
+  "password": "cousin",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652338672"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652338672"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6479038db3cb3726a0cc5f13"
+  },
+  "userImage": [],
+  "firstName": "Jill",
+  "lastName": "Connolly",
+  "userName": "jConnolly",
+  "password": "animals",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652365729"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652365729"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6479039bb3cb3726a0cc5f14"
+  },
+  "userImage": [],
+  "firstName": "Amy",
+  "lastName": "Yeates",
+  "userName": "aYeates",
+  "password": "seattle",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652379697"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652379697"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647903adb3cb3726a0cc5f15"
+  },
+  "userImage": [],
+  "firstName": "Leah",
+  "lastName": "Favorite",
+  "userName": "lFavorite",
+  "password": "bestie2",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652397969"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652397969"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647903c2b3cb3726a0cc5f16"
+  },
+  "userImage": [],
+  "firstName": "Leslie",
+  "lastName": "Devine",
+  "userName": "lDevine",
+  "password": "horse",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652418529"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652418529"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647903d1b3cb3726a0cc5f17"
+  },
+  "userImage": [],
+  "firstName": "Josie",
+  "lastName": "Graves",
+  "userName": "jGraves",
+  "password": "butt",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652433096"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652433096"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647903e5b3cb3726a0cc5f18"
+  },
+  "userImage": [],
+  "firstName": "Christine",
+  "lastName": "Lattimore",
+  "userName": "cLattimore",
+  "password": "shawn",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652453104"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652453104"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647903ffb3cb3726a0cc5f19"
+  },
+  "userImage": [],
+  "firstName": "Shawn ",
+  "lastName": "Zarn",
+  "userName": "sZarn",
+  "password": "buddyman",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652479865"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652479865"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6479041cb3cb3726a0cc5f1a"
+  },
+  "userImage": [],
+  "firstName": "Justin",
+  "lastName": "Jackson",
+  "userName": "jJackson",
+  "password": "electric",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652508529"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652508529"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790432b3cb3726a0cc5f1b"
+  },
+  "userImage": [],
+  "firstName": "Chris",
+  "lastName": "Connolly",
+  "userName": "cConnolly",
+  "password": "electrician",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652530496"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652530496"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790442b3cb3726a0cc5f1c"
+  },
+  "userImage": [],
+  "firstName": "Sam",
+  "lastName": "Connolly",
+  "userName": "sConnolly",
+  "password": "married",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652546664"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652546664"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64790455b3cb3726a0cc5f1d"
+  },
+  "userImage": [],
+  "firstName": "Amanda",
+  "lastName": "Randolph",
+  "userName": "aRandolph",
+  "password": "prego",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685652565232"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685652565232"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03818e7c7b25b8cb729d"
+  },
+  "userImage": [],
+  "firstName": "Jake ",
+  "lastName": "Otteinger",
+  "userName": "Jake",
+  "password": "ott",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717889017"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717889017"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03948e7c7b25b8cb729f"
+  },
+  "userImage": [],
+  "firstName": "Jade",
+  "lastName": "Mack",
+  "userName": "Jaders",
+  "password": "mack1",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717908654"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717908654"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03a48e7c7b25b8cb72a0"
+  },
+  "userImage": [],
+  "firstName": "Sammy",
+  "lastName": "G",
+  "userName": "GSammy",
+  "password": "123",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717924246"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717924246"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03b08e7c7b25b8cb72a1"
+  },
+  "userImage": [],
+  "firstName": "Jake",
+  "lastName": "Mack",
+  "userName": "Mackie",
+  "password": "makie",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717936214"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717936214"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03be8e7c7b25b8cb72a2"
+  },
+  "userImage": [],
+  "firstName": "Jason",
+  "lastName": "Averett",
+  "userName": "Jason",
+  "password": "ass",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717950606"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717950606"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03d38e7c7b25b8cb72a3"
+  },
+  "userImage": [],
+  "firstName": "Jennifer",
+  "lastName": "Fowler",
+  "userName": "BigJen",
+  "password": "fowler",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717971062"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717971062"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03e58e7c7b25b8cb72a4"
+  },
+  "userImage": [],
+  "firstName": "Steven",
+  "lastName": "Herman",
+  "userName": "Oppenherman",
+  "password": "kelci",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685717989030"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685717989030"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a03f98e7c7b25b8cb72a5"
+  },
+  "userImage": [],
+  "firstName": "pete",
+  "lastName": "van winkle",
+  "userName": "winkle",
+  "password": "2345",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718009239"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718009239"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04088e7c7b25b8cb72a6"
+  },
+  "userImage": [],
+  "firstName": "marissa",
+  "lastName": "Nuckolls",
+  "userName": "Nucks",
+  "password": "slkdjfl",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718024998"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718024998"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04198e7c7b25b8cb72a7"
+  },
+  "userImage": [],
+  "firstName": "Lacey",
+  "lastName": "Windust",
+  "userName": "Windusty",
+  "password": "1545",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718041895"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718041895"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04248e7c7b25b8cb72a8"
+  },
+  "userImage": [],
+  "firstName": "Britany",
+  "lastName": "Perdue",
+  "userName": "B",
+  "password": "sdfsdf",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718052654"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718052654"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04398e7c7b25b8cb72a9"
+  },
+  "userImage": [],
+  "firstName": "Paige",
+  "lastName": "Rodriguez",
+  "userName": "PMoney",
+  "password": "dfgfgj",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718073685"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718073685"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04518e7c7b25b8cb72ad"
+  },
+  "userImage": [],
+  "firstName": "Jordan",
+  "lastName": "Buttney",
+  "userName": "Jordan",
+  "password": "65464",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718097141"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718097141"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04618e7c7b25b8cb72ae"
+  },
+  "userImage": [],
+  "firstName": "Heather",
+  "lastName": "Odell",
+  "userName": "Heather",
+  "password": "sjhulu8",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718113102"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718113102"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04748e7c7b25b8cb72af"
+  },
+  "userImage": [],
+  "firstName": "Sergei ",
+  "lastName": "Bobrovsky",
+  "userName": "Bobby",
+  "password": "sjkdhgfd'fhgiu",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718132646"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718132646"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a048c8e7c7b25b8cb72b0"
+  },
+  "userImage": [],
+  "firstName": "Alex",
+  "lastName": "Tkachuck",
+  "userName": "Tuck",
+  "password": "sdfshrtjyum",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718156558"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718156558"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a049c8e7c7b25b8cb72b1"
+  },
+  "userImage": [],
+  "firstName": "Ted",
+  "lastName": "Sutten",
+  "userName": "Suttenboy",
+  "password": "sdfsdfsdfjghkhjk",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718172054"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718172054"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647a04b28e7c7b25b8cb72b2"
+  },
+  "userImage": [],
+  "firstName": "Kelci",
+  "lastName": "Herman",
+  "userName": "kherman",
+  "password": "sdfsjgkjkl;k'",
+  "events": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685718194301"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685718194301"
+    }
+  },
+  "__v": 0
+}]

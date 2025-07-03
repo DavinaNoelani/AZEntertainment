@@ -10,8 +10,6 @@ const eventRoutes = express.Router();
 
 eventRoutes.get('/test', (_, res) => res.send('Event route testing!'));
 
-
-
 // @route GET api/
 // @description Get all events
 // @access Public
