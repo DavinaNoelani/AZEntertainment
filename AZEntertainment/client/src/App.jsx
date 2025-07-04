@@ -7,6 +7,9 @@ import Admin from './components/Admin/Admin';
 import Yolo from './components/Yolo/Yolo';
 import UserPage from './components/Users/UserPage';
 import Footer from './components/Footer/Footer';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import './App.css';
+
 import { handleShares } from './components/Tabs/ShareFunction';
 
 
@@ -22,9 +25,11 @@ function App() {
     const [allUsers, setAllUsers] = useState([])
     const [showUserInfo, setShowInfo] = useState(false)
     const [showAdmin, setShowAdmin] = useState(false)
-
+    const [loading, setLoading] = useState(true);
+    const [sharesTotal, setSharesTotal] = useState(0);
 
     useEffect(() => {
+        
         axios.get('http://localhost:5000/api/event')
             .then(({ data }) => {
                 setEventList(data)
@@ -45,9 +50,14 @@ function App() {
             })
             .catch(err => console.log(err))
 
-    }, [register])
+    }, [register]);
 
-    // console.log(eventList, "eventList")
+
+
+
+
+
+    console.log(eventList.length, "eventList")
     // console.log(yoloList, "yoloList")
 
 
@@ -101,7 +111,10 @@ function App() {
                             eventList={eventList}
                             setEventList={setEventList}
                             allUsers={allUsers}
-
+                            loading={loading}   
+                            setLoading={setLoading}
+                            sharesTotal={sharesTotal}
+                            setSharesTotal={setSharesTotal}
                         />}>
                     </Route>
 

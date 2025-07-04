@@ -10,7 +10,7 @@ const UserMap = ({ array, userInfo, setUserInfo, setUserList, userList }) => {
                     return (
                         <div key={index}>
                             <UserTabs
-                                userId = {item._id}
+                                userId={item._id}
                                 firstName={item.firstName}
                                 lastName={item.lastName}
                                 userName={item.userName}

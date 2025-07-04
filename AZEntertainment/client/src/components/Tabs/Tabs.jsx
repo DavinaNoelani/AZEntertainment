@@ -42,6 +42,7 @@ import taco from '../Imgs/taco.PNG'
 import Payment from "../Users/Payment";
 import { handleShares } from "./ShareFunction";
 import axios from "axios";
+import './Tabs.css';
 
 
 const Tabs = ({
@@ -318,12 +319,10 @@ const Tabs = ({
             {three && (
                 <div id="Contact" className="tabcontent ">
                     <div className="heading">Ticket Price: ${price}</div>
-                    <p>
+                    <p className="tab-paragraphs">
                         Make sure to get tickets before it's too late! ENJOY!
                     </p>
-                    <button onClick={() => {
-                        setPurchase(true)
-                    }} className="attend-btn">Buy</button>
+                    <button type='button' onClick={() => {setPurchase(true)}} className="attend-btn">Buy</button>
                 </div>
             )}
 
@@ -331,7 +330,7 @@ const Tabs = ({
             {four && (
                 <div id="About" className="tabcontent ">
                     <div className="heading">Event Info</div>
-                    <p>
+                    <p className="tab-paragraphs">
                         <b>Start Date:</b>
                         <br />
                         <span>{converted}</span>

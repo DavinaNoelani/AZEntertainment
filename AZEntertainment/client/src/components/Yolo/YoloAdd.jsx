@@ -44,7 +44,6 @@ const YoloAdd = () => {
         axios.post('http://localhost:5000/api/yolo/new-yolo', yolo)
             .then(({ data }) => {
                 setSavedYolo([data])
-
                 setActivityName("")
                 setOperationHours("")
                 setOperationDays("")

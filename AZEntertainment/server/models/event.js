@@ -32,7 +32,7 @@ const EventSchema = new mongoose.Schema({
         type: String
     },
     price: {
-        type: Number
+        type: String
     },
     venue: {
         type: String,

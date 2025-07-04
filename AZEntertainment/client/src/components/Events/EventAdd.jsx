@@ -20,13 +20,15 @@ const EventAdd = () => {
     const [city, setCity] = useState('')
     const [state, setState] = useState('')
     const [zipcode, setZipcode] = useState('')
-    const [reoccurring, setReoccurring] = useState('')
+    // const [reoccurring, setReoccurring] = useState('')
     const [savedEvent, setSavedEvent] = useState([])
     const [time, setTime] = useState('')
+    const [comment, setComment] = useState('')
 
 
 
     const handleUser = (e) => {
+
         e.preventDefault()
         const event = {
             category: category,
@@ -47,23 +49,27 @@ const EventAdd = () => {
                 state: state,
                 zipcode: zipcode
             },
-            reoccurring: reoccurring,
-            eventImage: eventImage
+            eventImage: eventImage,
+            comment: comment
 
 
         }
+       
         axios.post('http://localhost:5000/api/event/new-event', event)
-            .then(({ data }) => {
-                setSavedEvent([data])
-            })
-            .catch((err) => console.log(err))
+           .then(({ data }) => {
+            alert('Event created!');
+            setSavedEvent([data]);
+        })
+        .catch(err => console.log(err));
 
         setCategory("")
         setAudience("")
         setEventName("")
         setEventStartDate("")
         setEventEndDate("")
+        setTime("")
         setDescription("")
+        setPrice("")
         setVenue("")
         setVenueDescription("")
         setPhoneNumber('')
@@ -72,15 +78,18 @@ const EventAdd = () => {
         setCity("")
         setState("")
         setZipcode("")
-        setReoccurring("")
         setEventImage("")
+        setComment("")
+        alert('Event submitted successfully!');
+
 
     }
 
     return (
         <>
             <div className="eventDiv half">
-                <form id="eventForm" action="/api/event/new-event" method="post" className='form-container form-card form-margin'>
+
+                <form id="eventForm" onSubmit={handleUser} className='form-container form-card form-margin'>
                     <h2 className='card-header'>Event:</h2>
                     <label htmlFor="category" className="inputLabels">Category</label>
                     <input onChange={(e) => setCategory(e.target.value)} id="category" name="category" value={category} type="text" className="form-input form-border" />
@@ -130,7 +139,7 @@ const EventAdd = () => {
                     <label htmlFor="zipcode" className="inputLabels">Zipcode</label>
                     <input onChange={(e) => setZipcode(e.target.value)} id="zipcode" value={zipcode} type="text" name="zipcode" className="form-input form-border" />
 
-                    <button onClick={handleUser} className='submitBtn w3-button w3-black btn'>Submit</button>
+                    <button type="submit" className='submitBtn w3-button w3-black btn'>Submit</button>
                 </form>
             </div>
         </>

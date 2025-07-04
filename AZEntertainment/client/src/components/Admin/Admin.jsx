@@ -6,20 +6,34 @@ import EventAdd from "../Events/EventAdd";
 import YoloAdd from '../Yolo/YoloAdd';
 import azmap from '../Imgs/map.jpg';
 
-const Admin = ({ theme, eventList, setEventList, allUsers }) => {
+
+const Admin = ({ theme, eventList, setEventList, allUsers, loading, setLoading }) => {
     const [sharesTotal, setSharesTotal] = useState('');
 
+    // useEffect(() => {
+    //     axios.get('http://localhost:5000/api/event')
+    //         .then(({ data }) => {
+    //             setEventList(data)
+    //             if (data.length > 0) {
+    //                 const likes = data.map((item) => item.likes)
+    //                 setSharesTotal(likes.reduce((a, b) => (a || 0) + (b || 0), 0))
+
+    //             }
+    //         })
+    //         .catch(err => console.log(err))
+    // }, [])
+
     useEffect(() => {
+        setLoading(true);
         axios.get('http://localhost:5000/api/event')
             .then(({ data }) => {
-                setEventList(data)
-                if (data.length > 0) {
-                    const likes = data.map((item) => item.likes)
-                    setSharesTotal(likes.reduce((a, b) => a + b))
-                }
+                setEventList(data);
+                const likes = data.map(item => item.likes || 0);
+                setSharesTotal(likes.reduce((a, b) => a + b, 0));
             })
             .catch(err => console.log(err))
-    }, [])
+            .finally(() => setLoading(false));
+    }, [setEventList, setSharesTotal]);
 
 
     return (

@@ -63,7 +63,7 @@ eventRoutes.get('/search', async (req, res) => {
 // @access Public
 // http://localhost:5000/api/event/new-event/
 
-eventRoutes.post('/new-event', (req, res) => {
+eventRoutes.post('http://localhost:5000/api/event/new-event/', (req, res) => {
     Event.create(req.body)
         .then(() => res.json({ msg: 'Event added successfully' }))
         .catch(() =>
