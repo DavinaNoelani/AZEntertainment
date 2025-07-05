@@ -1,75 +1,37 @@
-# AZEntertainment 🎭
-
-A full-stack event management platform developed by a remote team of emerging developers 
-during a rehabilitative coding bootcamp. AZEntertainment allows users to browse, post, 
-and purchase tickets for events with image upload, Stripe integration, and authentication features.
+### 🎭 AZEntertainment – Group Project
 
 ---
 
-### 🛠 Tech Stack
-- **Frontend:** React, CSS, Axios, Cloudinary
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB + Mongoose
-- **Other Tools:** Stripe, GitHub, Vite, Postman
+### 📄 Project Overview
 
----
-
-### 🚀 Features
-- 🔐 **User Authentication** (Sign in/out, protected routes)
-- 📸 **Image Uploads** via Cloudinary
-- 💳 **Stripe Payment Integration**
-- 📅 **Event Creation & Management**
-- 🔎 Event filtering by category, audience, and date
-- 🌐 Fully responsive front-end UI
-
----
-
-### 📦 Installation
-
-1. Clone this repo  
-   `git clone https://github.com/davinanoelani/azentertainment.git`
-
-2. Install dependencies
-   cd client
-   npm install
-
-   cd ../server
-   npm install
-
-3. Create a `.env` file in `/server` with:
-   MONGO_URI=yourMongoURI
-   CLOUDINARY_URL=yourCloudinaryAPI
-   STRIPE_SECRET_KEY=yourStripeKey
-
-4. Run both servers:
-   // In server
-   npm run dev
-
-   // In client
-   npm run dev
+AZEntertainment is a full-stack event management application that allows users to create, browse, and purchase tickets for events. Key features include user authentication, image upload via Cloudinary, and Stripe payment integration. The app was developed as part of a full-time web development bootcamp.
 
 ---
 
 ### 👥 Collaboration Context
-This project was built collaboratively by a team of justice-impacted developers as part of a full-time web development bootcamp facilitated through Persevere and Banyan Labs. We worked in a remote Agile environment, using GitHub for version control and Trello for sprint planning.
+
+This project was built by a team of justice-impacted developers during a web development bootcamp facilitated by Persevere and Banyan Labs. While we worked in a static, offline environment without internet access, we simulated real-world development practices and collaborated using shared local drives and code handoffs. We were introduced to GitHub after the program, applying our knowledge post-release.
 
 ---
 
 ### 🧠 What I Contributed
-- Developed core UI components in React  
-- Implemented Cloudinary integration for image uploads  
-- Contributed to protected route logic and event form validation  
-- Participated in daily standups and peer code reviews
+
+* Built core UI components using React
+* Integrated image upload functionality via Cloudinary
+* Helped implement protected routes and event form validation
+* Collaborated with team members on component structure and application flow
 
 ---
 
 ### 🧭 Lessons Learned
-- Building under constraints taught me adaptability and collaboration.
-- Strengthened my ability to write scalable, readable code.
-- Learned to integrate third-party APIs under real-world project deadlines.
+
+* Adapted to technical constraints by developing in a non-networked environment
+* Strengthened my understanding of React, Express, and REST APIs
+* Gained practical experience working on a team project under tight constraints
 
 ---
 
 ### 📬 Contact
-📧 davina.dacpano@gmail.com  
-🔗 [LinkedIn or Portfolio if available]
+
+📧 [davina.dacpano@gmail.com](mailto:davina.dacpano@gmail.com)
+🔗 [GitHub: davinanoelani](https://github.com/davinanoelani)
