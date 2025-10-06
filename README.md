@@ -3,7 +3,7 @@
 ---
 
 ### 📄 Project Overview
-AZEntertainment is a full-stack event management application that allows users to create, browse, and purchase tickets for events. Key features include user authentication, image upload via Cloudinary, and Stripe payment integration. The app was developed as part of a full-time web development bootcamp.
+AZEntertainment is a full-stack event management application that allows an admin with verified credentials to post or host local events. The user experience allows users to browse, and purchase tickets for events. Key features include user authentication, image upload via Cloudinary, and Stripe payment integration. The app was developed as part of a full-time web development bootcamp.
 
 ---
 
@@ -14,7 +14,7 @@ This project was built by a team of justice-impacted developers during a web dev
 
 ### 🧠 What I Contributed
 - Built core UI components using React
-- Integrated image upload functionality via Cloudinary
+- Integrated image upload functionality via Cloudinary (post icarceration)
 - Helped implement protected routes and event form validation
 - Collaborated with team members on component structure and application flow
 
